@@ -1,0 +1,6 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="赵国铨-王雅萱-UID作业1" Height="768" Width="1024" ResizeMode="NoResize">
+    <WebBrowser x:Name="wb" Margin="0" Initialized="WebBrowser_Initialized" Source="C:\html\index.html"/>
+</Window>
